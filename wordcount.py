@@ -31,8 +31,8 @@ def countWords():
         })
     
 
-    print(f"{'Word':<15} {'Frequency':<10}")  # Header
-    print("-" * 25)  # Divider
+    print(f"{'Word':<15} {'Frequency':<10}")  
+    print("-" * 25)  
 
     for word, count in wordDict.items():
         print(f"{word:<15} {count:<10}")
